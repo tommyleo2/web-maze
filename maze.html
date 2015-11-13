@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Maze</title>
+    <link rel="stylesheet" href="maze.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="maze.js"></script>
+  </head>
+  <body>
+    <div id="maze">
+      <div id="mazeInfo">
+        <p class="title">The Amazing Mouse Maze!</p>
+        <p class="info_1">Move your mouse over the "S" to begin.</p>
+        <p class="info_2">Don't cheat, you should start from the "S" and move to the "E" inside the maze!</p>
+        <div id="notification"></div>
+      </div>
+      <div id="mazeBody">
+        <div class="normalWall">
+          <div id="upperleft" class="wall"></div>
+          <div id="upper" class="wall"></div>
+          <div id="upperright" class="wall"></div>
+          <div id="middle" class="wall"></div>
+          <div id="bottom" class="wall"></div>
+        </div>
+        <div class="errorWall">
+          <div id="_upperleft" class="errWall"></div>
+          <div id="_upper" class="errWall"></div>
+          <div id="_upperright" class="errWall"></div>
+          <div id="_middle" class="errWall"></div>
+          <div id="_bottom" class="errWall"></div>
+        </div>
+        <div id="start">S</div>
+        <div id="end">E</div>
+        <div id="genuine"></div>
+        <div id="cheating"></div>
+      </div>
+      <div id="mazeInfoEx">
+        <p class="info_3">The object of this game is to guide the mouse cursor through the start area and get to the end eara. Be sure to avoid this walls:</p>
+        <div id="sampleWall" class="wall"><div id="_sampleWall" class="errWall"></div></div>
+        <p class="info_4">Good luck!</p>
+      </div>
+    </div>
+  </body>
+</html>
