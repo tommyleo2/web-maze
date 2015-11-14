@@ -20,18 +20,26 @@ p {
     margin-bottom: 25px;
 }
 
-.info_1, .info_2 {
+.info_1 {
     font-size: 30px;
     margin: 25px;
 }
 
 #notification {
     height: 50px;
-    margin: 25px;
+    margin-top: 25px;
     text-align: center;
     font-family: Futura;
-    font-size: 40px;
+    font-size: 30px;
     opacity: 0;
+}
+
+#timer, #record {
+    font-family: Futura;
+    width: 500px;
+    height: 25px;
+    margin: 0 auto;
+    text-align: right;
 }
 
 #mazeBody {
